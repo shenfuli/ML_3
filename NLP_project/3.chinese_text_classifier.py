@@ -44,25 +44,27 @@ word1 word2 word4 car
     sentences: 返回的数据列表
     category： 文章的类别
 '''
-def preprocess_text(lines, sentences, category):
-    for line in lines[0:10]:
-        segs = jieba.lcut(line)
-        segs = [seg for seg in segs if len(seg) > 1 and seg not in stopwords]
-        data = " ".join(segs)
-        label = category
-        sentences.append((data, label))
+def preprocess_text(lines, file_name, category):
 
+    with open(file_name,"w") as f:
+        for line in lines[0:10]:
+            segs = jieba.lcut(line)
+            segs = [seg for seg in segs if len(seg) > 1 and seg not in stopwords]
+            data = " ".join(segs)
+            label = category
+            f.write(label + " " + data + "\n")
 
-sentences = []
-preprocess_text(technology, sentences, "technology")
-preprocess_text(car, sentences, "car")
-preprocess_text(entertainment, sentences, "entertainment")
-preprocess_text(military, sentences, "military")
-preprocess_text(sports, sentences, "sports")
+preprocess_text(technology, "data_sample/technology_sample.txt", "technology")
+preprocess_text(entertainment, "data_sample/entertainment_sample.txt", "entertainment")
+preprocess_text(car, "data_sample/car_sample.txt", "car")
+preprocess_text(military, "data_sample/military_sample.txt", "military")
+preprocess_text(sports, "data_sample/sports_sample.txt", "sports")
+
+# preprocess_text(car, sentences, "car")
+# preprocess_text(entertainment, sentences, "entertainment")
+# preprocess_text(military, sentences, "military")
+# preprocess_text(sports, sentences, "sports")
 
 
 ## 样本顺序打乱 并打印训练格式的样本
-import random
-random.shuffle(sentences)
-for data_label in sentences:
-    print(data_label[1] + " " + data_label[0])
+
