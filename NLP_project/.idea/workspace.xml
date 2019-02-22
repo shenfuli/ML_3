@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3.chinese_text_classifier-train_test_sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.chinese_text_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.chinese_text_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.chinese_text_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3.chinese_text_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.chinese_text_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.chinese_text_classifier-preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sample/car_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_sample/car_sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sample/entertainment_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_sample/entertainment_sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sample/military_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_sample/military_sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sample/sports_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_sample/sports_sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sample/technology_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_sample/technology_sample.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +22,44 @@
     <favorites_list name="NLP_project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="206">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="26" />
+              <folding>
+                <element signature="e#31#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-train_test_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_sample/technology_sample.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/data_sample/data_label.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///anaconda3/lib/python3.7/typing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="1490" selection-start-line="1490" selection-end-line="1490" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -43,6 +75,7 @@
     <findStrings>
       <find>read_csv(</find>
       <find>唐僧给孙悟空下跪</find>
+      <find>car</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,10 +95,12 @@
         <option value="$PROJECT_DIR$/userdict.txt" />
         <option value="$PROJECT_DIR$/0.chinese_text_jieba_dict.py" />
         <option value="$PROJECT_DIR$/3.chinese_text_classifier.py" />
+        <option value="$PROJECT_DIR$/3.chinese_text_classifier-preprocessing.py" />
+        <option value="$PROJECT_DIR$/3.chinese_text_classifier-train_test_sample.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -88,6 +123,11 @@
               <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
               <item name="data_sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +232,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.chinese_text_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.chinese_text_classifier-preprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,23 +286,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24524313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24524313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33704737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50416666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28055555" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3263889" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.62083334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -273,19 +313,59 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39722222" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33704737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50416666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28055555" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3263889" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.62083334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,33 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/simhei.ttf">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/tf_cnn_text.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/tf.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/text_cnn.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/sports.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/lstm.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/fast_text.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/entertainment.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/news_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/entertainment.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -391,11 +444,6 @@
     <entry file="file://$PROJECT_DIR$/data/finance_news.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="-63681" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/car_news.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62823" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/society_news.csv">
@@ -584,13 +632,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/car_news.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/military_sample.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/sports_sample.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_sample/technology_sample.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/_io.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="147">
+          <caret line="577" column="8" selection-start-line="577" selection-start-column="8" selection-end-line="577" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="413" column="8" selection-start-line="413" selection-start-column="8" selection-end-line="413" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="1490" selection-start-line="1490" selection-end-line="1490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/entertainment_sample.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/data_label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-93645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/car_sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#31#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-train_test_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
