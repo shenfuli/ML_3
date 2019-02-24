@@ -52,17 +52,17 @@ def preprocess_text(lines, file_name, category):
             segs = [seg for seg in segs if len(seg) > 1 and seg not in stopwords]
             data = " ".join(segs)
             label = category
-            f.write(label + " " + data + "\n")
+            f.write(data + "\t" + label + "\n")  # 采用data  label 格式，不采用label  data 格式，后面数据处理使用
 
 ## 处理 label data 格式的数据
-# preprocess_text(technology, "data_sample/technology_sample.txt", "technology")
-# preprocess_text(entertainment, "data_sample/entertainment_sample.txt", "entertainment")
-# preprocess_text(car, "data_sample/car_sample.txt", "car")
-# preprocess_text(military, "data_sample/military_sample.txt", "military")
-# preprocess_text(sports, "data_sample/sports_sample.txt", "sports")
+preprocess_text(technology, "data_sample/technology_sample.txt", "technology")
+preprocess_text(entertainment, "data_sample/entertainment_sample.txt", "entertainment")
+preprocess_text(car, "data_sample/car_sample.txt", "car")
+preprocess_text(military, "data_sample/military_sample.txt", "military")
+preprocess_text(sports, "data_sample/sports_sample.txt", "sports")
 
-## 样本顺序打乱 并打印训练格式的样本
-
+# ## 样本顺序打乱 并打印训练格式的样本
+#
 merge_data_path = "data_sample/data_label.txt"
 category_lst = ['technology','entertainment','car','military','sports']
 with open(merge_data_path,"w") as f_write:
@@ -72,15 +72,3 @@ with open(merge_data_path,"w") as f_write:
             for line in f.readlines():
                 f_write.write(line)
 
-
-
-documents = []
-with open(merge_data_path,"r") as f:
-    for line in f.readlines():
-         documents.append(line);
-
-
-import random
-random.shuffle(documents)
-for data in documents:
-    print(data.strip())
