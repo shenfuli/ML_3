@@ -57,8 +57,8 @@ classifer.fit(vectorizer.transform(X_train),y_train)
 '''
 
 
-accuracy = classifer.score(vectorizer.transform(X_test),y_test)
-print("accuracy = {0}".format(accuracy))
+precision = classifer.score(vectorizer.transform(X_test),y_test)
+print("accuracy = {0}".format(precision))
 
 
 '''

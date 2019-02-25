@@ -53,22 +53,47 @@ vectorizer.fit(X_train)
 from sklearn.naive_bayes import MultinomialNB
 classifer = MultinomialNB()
 classifer.fit(vectorizer.transform(X_train),y_train)
-accuracy = classifer.score(vectorizer.transform(X_test),y_test)
-print("accuracy = {0}".format(accuracy))
+precision = classifer.score(vectorizer.transform(X_test),y_test)
+print("precision = {0}".format(precision))
 
 
 '''
 交叉验证： 进一步提供效果
 更可靠的验证效果的方式是交叉验证，但是交叉验证最好保证每一份里面的样本类别也是相对均衡的，我们这里使用StratifiedKFold
+K折的交叉验证，可以看到在5个类别上的结果平均准确度
+
 '''
+from sklearn.cross_validation import  StratifiedKFold
+from sklearn.metrics import precision_score
+import numpy as np
 
+def stratifiedkfold_cv(x,y,clf_class,shuffle=True,n_folds = 5,**kwargs):
+    skf = StratifiedKFold(y,n_folds = n_folds,shuffle = shuffle)
+    y_pred = y[:]
+    for train_index, test_index in skf:
+        print("TRAIN:", train_index, "TEST:", test_index)
+        X_train, X_test = x[train_index], x[test_index]
+        y_train = y[train_index]
+        clf = clf_class(**kwargs)
+        clf.fit(X_train,y_train)
+        y_pred[test_index] = clf.predict(X_test)
+        return y_pred
 
-
+nb = MultinomialNB
+y_pred = stratifiedkfold_cv(vectorizer.transform(x), np.array(y), nb)
+precision = precision_score(y, y_pred, average='macro')
+print("kfold precision = {0}".format(precision))
 
 '''
 总结：
 分类个数： 5中类别
 特征： 采用CountVectorizer  1，2，3 grame 特征组合  20000特征词
 模型： 选择MultinomialNB 分类
-准确率：accuracy = 0.8837116897565628
+准确率：
+precision = 0.8816190299594713
+kfold precision = 0.9769139057703977
+
+那么我们接下来可以封装一个文本的分类器，使得代码更加容易查看
+
+
 '''
