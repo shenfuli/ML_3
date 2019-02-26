@@ -52,7 +52,7 @@ if __name__ == "__main__":
     # 获取训练和验证集数据
     merge_data_path = "data_sample/data_label.txt"
     documents = []
-    with open(merge_data_path, "r") as f:
+    with open(merge_data_path, "r",encoding="utf-8") as f:
         for line in f.readlines():
             data = line.split("\t")
             if len(data) == 2:
