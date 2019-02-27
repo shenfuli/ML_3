@@ -46,7 +46,7 @@ word1 word2 word4 car
 '''
 cate_dic = {'technology':1, 'car':2, 'entertainment':3, 'military':4, 'sports':5}
 def preprocess_text(lines, documents, category):
-    for line in lines[0:4]:
+    for line in lines:
         segs = jieba.lcut(line)
         segs = [seg for seg in segs if len(seg) > 1 and seg not in stopwords]
         data = " ".join(segs)
