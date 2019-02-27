@@ -45,32 +45,30 @@ word1 word2 word4 car
     category： 文章的类别
 '''
 cate_dic = {'technology':1, 'car':2, 'entertainment':3, 'military':4, 'sports':5}
-def preprocess_text(lines, file_name, category):
-
-    with open(file_name,"w") as f:
-        for line in lines:
-            segs = jieba.lcut(line)
-            segs = [seg for seg in segs if len(seg) > 1 and seg not in stopwords]
-            data = " ".join(segs)
-            label = cate_dic[category]
-            data_format = "__label__{0} , {1}".format(label,data)
-            f.write(data_format+"\n")  # 采用data  label 格式，不采用label  data 格式，后面数据处理使用
+def preprocess_text(lines, documents, category):
+    for line in lines[0:4]:
+        segs = jieba.lcut(line)
+        segs = [seg for seg in segs if len(seg) > 1 and seg not in stopwords]
+        data = " ".join(segs)
+        label = cate_dic[category]
+        data_format = "__label__{0} , {1}".format(label,data)
+        documents.append(data_format)
+        #f.write(data_format+"\n")  # 采用data  label 格式，不采用label  data 格式，后面数据处理使用
 
 ## 处理 label data 格式的数据
-preprocess_text(technology, "data_sample/technology_fasttext_sample.txt", "technology")
-preprocess_text(entertainment, "data_sample/entertainment_fasttext_sample.txt", "entertainment")
-preprocess_text(car, "data_sample/car_fasttext_sample.txt", "car")
-preprocess_text(military, "data_sample/military_fasttext_sample.txt", "military")
-preprocess_text(sports, "data_sample/sports_fasttext_sample.txt", "sports")
+documents = []
+preprocess_text(technology, documents, "technology")
+preprocess_text(entertainment, documents, "entertainment")
+preprocess_text(car, documents, "car")
+preprocess_text(military, documents, "military")
+preprocess_text(sports, documents, "sports")
 
 # ## 样本顺序打乱 并打印训练格式的样本
-#
-merge_data_path = "data_sample/fasttext_data_label.txt"
-category_lst = ['technology','entertainment','car','military','sports']
-with open(merge_data_path,"w") as f_write:
-    for category in category_lst:
-        file_path = "data_sample/{0}_fasttext_sample.txt".format(category)
-        with open(file_path) as f:
-            for line in f.readlines():
-                f_write.write(line)
+import random
+random.shuffle(documents)
+
+data_path = "data_sample/fasttext_train_data.txt"
+with open(data_path,"w") as f_write:
+    for document in documents:
+        f_write.write(document.strip()+"\n")
 
