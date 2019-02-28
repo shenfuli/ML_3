@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. facebook-fasttext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FasttextTextClassifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.facebook-fasttext.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.facebook-fasttext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_sample/fasttext_data_label.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_sample/fasttext_train_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_sample/fasttext_train_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.facebook-fasttext.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +18,15 @@
     <favorites_list name="NLP_project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4.facebook-fasttext.py">
+        <entry file="file://$PROJECT_DIR$/FasttextTextClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="46" column="34" selection-start-line="46" selection-end-line="47" />
+            <state relative-caret-position="552">
+              <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,26 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="113" column="22" selection-start-line="103" selection-start-column="28" selection-end-line="113" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="300" column="4" selection-start-line="300" selection-start-column="4" selection-end-line="300" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <caret line="317" column="4" selection-start-line="317" selection-start-column="4" selection-end-line="317" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -107,6 +84,8 @@
         <option value="$PROJECT_DIR$/TextClassifier.py" />
         <option value="$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py" />
         <option value="$PROJECT_DIR$/4.facebook-fasttext.py" />
+        <option value="$PROJECT_DIR$/4. facebook-fasttext.py" />
+        <option value="$PROJECT_DIR$/FasttextTextClassifier.py" />
       </list>
     </option>
   </component>
@@ -128,6 +107,11 @@
             <path>
               <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
+              <item name="data_sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
@@ -204,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4.facebook-fasttext">
+  <component name="RunManager" selected="Python.FasttextTextClassifier">
     <configuration name="3.chinese_text_classifier-features-model_v1.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.facebook-fasttext" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FasttextTextClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +264,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.facebook-fasttext.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FasttextTextClassifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,9 +294,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.3.chinese_text_classifier-features-model_v1.1" />
+      <item itemvalue="Python.3.chinese_text_classifier-train_test_sample" />
+      <item itemvalue="Python.3.facebook-fasttext-preprocessing" />
+      <item itemvalue="Python.FasttextTextClassifier" />
+      <item itemvalue="Python.TextClassifier" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4.facebook-fasttext" />
+        <item itemvalue="Python.FasttextTextClassifier" />
         <item itemvalue="Python.3.facebook-fasttext-preprocessing" />
         <item itemvalue="Python.TextClassifier" />
         <item itemvalue="Python.3.chinese_text_classifier-features-model_v1.1" />
@@ -351,8 +342,8 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2994429" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5027855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29805014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37604457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286908" />
@@ -366,13 +357,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23537703" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23537703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3941504" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5027855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29805014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37604457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286908" />
@@ -444,17 +435,20 @@
           <line>376</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FasttextTextClassifier.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py</url>
+          <line>355</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/jieba/analyse/textrank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="84" column="36" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/lib/python3.7/site-packages/jieba/analyse/tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -531,13 +525,6 @@
           <folding>
             <element signature="e#51#61#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/jieba/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
         </state>
       </provider>
     </entry>
@@ -641,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="97" selection-start-line="12" selection-start-column="97" selection-end-line="12" selection-end-column="97" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-feature_model_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -722,21 +699,8 @@
     <entry file="file://$PROJECT_DIR$/data_sample/technology_sample.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/technology_fasttext_sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_data_label.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-92404" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/technology_fasttext_sample.txt" />
+    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_data_label.txt" />
     <entry file="file:///anaconda3/lib/python3.7/typing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -761,18 +725,6 @@
     <entry file="file://$PROJECT_DIR$/data_sample/entertainment_sample.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_train_data.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="331">
-          <caret line="5720" column="17" lean-forward="true" selection-start-line="5720" selection-start-column="17" selection-end-line="5720" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -787,24 +739,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="113" column="22" selection-start-line="103" selection-start-column="28" selection-end-line="113" selection-end-column="22" />
+    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_train_data.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="530">
+          <caret line="5720" column="17" lean-forward="true" selection-start-line="5720" selection-start-column="17" selection-end-line="5720" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="46" column="34" selection-start-line="46" selection-end-line="47" />
+        <state relative-caret-position="248">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4.facebook-fasttext.py">
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/jieba/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="140">
+          <caret line="271" column="46" selection-start-line="271" selection-start-column="43" selection-end-line="271" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4. facebook-fasttext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="317" column="4" selection-start-line="317" selection-start-column="4" selection-end-line="317" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FasttextTextClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
