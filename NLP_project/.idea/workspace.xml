@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_sample/fasttext_unsupervised_train_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/vocabulary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/word2vec_gensim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/word2vec_org" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NLP_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLP_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.chinese_text_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3.chinese_text_classifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py" beforeDir="false" />
-    </list>
+    <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="add" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +16,7 @@
     <session id="-289141089">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -58,10 +44,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="626" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="626" />
         </counts>
       </usages-collector>
@@ -337,20 +325,20 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32729805" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3262295" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.4918033" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.37604457" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3286908" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.26462397" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5262295" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7081967" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -416,6 +404,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -565,6 +557,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1479">
           <caret selection-end-line="3" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
