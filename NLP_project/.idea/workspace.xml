@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-2.fast-unsupervised_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_sample/fasttext_unsupervised_train_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/vocabulary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/word2vec_gensim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/word2vec_org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NLP_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLP_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.facebook-fasttext-preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-1.fasttext-preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.facebook_fasttext.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4-1.facebook_fasttext.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.chinese_text_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3.chinese_text_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,33 +22,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NLP_project$4_facebook_fasttext_unsupervised_preprocessing.coverage" NAME="4.facebook-fasttext-unsupervised_preprocessing Coverage Results" MODIFIED="1551762618386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_project$4_3_fasttext_unsuperviserd_gensim.coverage" NAME="4-3 fasttext-unsuperviserd-gensim Coverage Results" MODIFIED="1551766390802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-289141089">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="ipynb" value="6" />
+          <entry key="py" value="30" />
+          <entry key="txt" value="16" />
+          <entry key="vocabulary" value="1" />
+          <entry key="word2vec_org" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="6" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="626" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="626" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="NLP_project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#578#634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-2.fast-unsupervised_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +89,8 @@
       <find>transform(</find>
       <find>output</find>
       <find>train_super</find>
+      <find>国</find>
+      <find>Word2Vec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,14 +124,22 @@
         <option value="$PROJECT_DIR$/4.fasttext-unsupervised_preprocessing.py" />
         <option value="$PROJECT_DIR$/4.fast-unsupervised_train.py" />
         <option value="$PROJECT_DIR$/4-3 fasttext-gensim.py" />
+        <option value="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" />
         <option value="$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py" />
+        <option value="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,10 +155,6 @@
               <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -126,9 +162,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -147,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4.fast-unsupervised_train">
+  <component name="RunManager" selected="Python.4-3 fasttext-unsuperviserd-gensim">
     <configuration name="3.facebook-fasttext-preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +197,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4-3 fasttext-unsuperviserd-gensim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,6 +241,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -202,6 +263,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-2.fast-unsupervised_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -223,28 +285,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FasttextTextClassifier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TextClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NLP_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TextClassifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,17 +298,17 @@
     <list>
       <item itemvalue="Python.3.facebook-fasttext-preprocessing" />
       <item itemvalue="Python.FasttextTextClassifier" />
-      <item itemvalue="Python.TextClassifier" />
       <item itemvalue="Python.4.facebook-fasttext-unsupervised_preprocessing" />
       <item itemvalue="Python.4.fast-unsupervised_train" />
+      <item itemvalue="Python.4-3 fasttext-unsuperviserd-gensim" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4.fast-unsupervised_train" />
+        <item itemvalue="Python.4-3 fasttext-unsuperviserd-gensim" />
         <item itemvalue="Python.4.facebook-fasttext-unsupervised_preprocessing" />
+        <item itemvalue="Python.4.fast-unsupervised_train" />
         <item itemvalue="Python.FasttextTextClassifier" />
         <item itemvalue="Python.3.facebook-fasttext-preprocessing" />
-        <item itemvalue="Python.TextClassifier" />
       </list>
     </recent_temporary>
   </component>
@@ -293,48 +335,58 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3389711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2005571" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37604457" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286908" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26462397" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37604457" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32729805" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.4918033" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37604457" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3286908" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.26462397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5262295" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3389711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2005571" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37604457" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286908" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26462397" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37604457" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32729805" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.4918033" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37604457" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3286908" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.26462397" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5262295" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -361,20 +413,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,11 +436,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FasttextTextClassifier.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py</url>
           <line>355</line>
           <option name="timeStamp" value="10" />
@@ -408,107 +444,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/train_data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/userdict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userdict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.chinese_text_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="51" column="29" selection-start-line="51" selection-end-line="52" />
-          <folding>
-            <element signature="e#51#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.chinese_text_word_cloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="43" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.chinese_text_jieba_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#51#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/car_news.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="577" column="8" selection-start-line="577" selection-start-column="8" selection-end-line="577" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/car_sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23512" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="287" column="54" selection-start-line="287" selection-start-column="46" selection-end-line="287" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/model_selection/_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="2004" column="15" selection-start-line="1997" selection-start-column="3" selection-end-line="2004" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="588" column="72" lean-forward="true" selection-start-line="587" selection-start-column="10" selection-end-line="588" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="517" selection-start-line="517" selection-end-line="520" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="1260" selection-start-line="1260" selection-end-line="1260" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/scipy/sparse/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1128">
-          <caret line="688" selection-start-line="688" selection-end-line="688" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/scipy/sparse/base.py" />
     <entry file="file://$PROJECT_DIR$/data_sample/data_label.txt">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -521,20 +457,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="686" column="8" selection-start-line="686" selection-start-column="8" selection-end-line="686" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="529" column="4" selection-start-line="529" selection-start-column="4" selection-end-line="529" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py" />
     <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-feature_model_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -556,16 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.chinese_text_analysis-lda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#52#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.chinese_text_word_cloud-report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -574,13 +488,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.chinese_text_word_cloud.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
@@ -598,13 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_sample/technology_fasttext_sample.txt" />
     <entry file="file://$PROJECT_DIR$/data_sample/fasttext_data_label.txt" />
-    <entry file="file:///anaconda3/lib/python3.7/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="1550" column="8" selection-start-line="1550" selection-start-column="8" selection-end-line="1550" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/typing.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -612,30 +513,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.7/abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/entertainment_sample.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="300" column="4" selection-start-line="300" selection-start-column="4" selection-end-line="300" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/abc.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/__init__.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/builtins.py" />
     <entry file="file://$PROJECT_DIR$/data_sample/fasttext_train_data.txt">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -649,69 +529,99 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.facebook-fasttext-preprocessing.py" />
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/jieba/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="271" column="46" selection-start-line="271" selection-start-column="43" selection-end-line="271" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/jieba/__init__.py" />
     <entry file="file://$PROJECT_DIR$/TextClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4. facebook-fasttext.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/fasttext_pybind.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py" />
+    <entry file="file://$PROJECT_DIR$/4-1.facebook_fasttext.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.chinese_text_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="29" selection-start-line="51" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FasttextTextClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-1479">
           <caret selection-end-line="3" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.chinese_text_analysis-lda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="2314" column="8" selection-start-line="2314" selection-start-column="8" selection-end-line="2314" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/site-packages/gensim/models/base_any2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="1043" selection-start-line="1043" selection-end-line="1043" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2.fast-unsupervised_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/car_news.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299018" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier-preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="63" column="7" selection-end-line="74" />
-          <folding>
-            <element signature="e#31#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_unsupervised_train_data.txt">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-102297" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/model/vocabulary">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/fasttext_pybind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/model/word2vec_org">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="370" column="17" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-1.facebook_fasttext.ipynb">
+    <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
@@ -720,32 +630,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4-1.fasttext-preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-524">
-          <caret selection-end-column="23" />
+        <state relative-caret-position="1900">
+          <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/site-packages/gensim/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/site-packages/gensim/models/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="725" selection-start-line="725" selection-end-line="729" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/site-packages/gensim/models/keyedvectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="426" column="22" selection-start-line="426" selection-start-column="18" selection-end-line="426" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-2.fast-unsupervised_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="95" />
+        <state relative-caret-position="1675">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="25">
+          <caret line="47" selection-start-line="47" selection-end-line="56" selection-end-column="19" />
           <folding>
-            <element signature="e#578#634#0" expanded="true" />
+            <element signature="e#711#724#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/site-packages/fasttext-0.8.22-py3.6-win-amd64.egg/fastText/FastText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="364" column="19" selection-start-line="364" selection-start-column="11" selection-end-line="364" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/entertainment_sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="61" selection-start-line="61" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="e#711#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_unsupervised_train_data.txt">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="250">
+          <caret line="9361" column="4" lean-forward="true" selection-start-line="9361" selection-end-line="9361" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>

@@ -61,10 +61,12 @@ preprocess_text(sports, documents)
 import random
 random.shuffle(documents)
 
+print("documents size = {0}".format(len(documents)))
 print("writing data to fasttext unsupervised learning format...")
 data_path = "data_sample/fasttext_unsupervised_train_data.txt"
 with open(data_path,"w") as f_write:
     for document in documents:
-        f_write.write(document.strip()+"\n")
+        line = document.strip()
+        f_write.write(line + "\n")
 print("done!")
 
