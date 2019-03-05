@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="add" />
+    <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-1.facebook_fasttext.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4-1.facebook_fasttext.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4-3 word2vec-unsuperviserd-gensim.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +20,21 @@
     <session id="-289141089">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.90" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="ipynb" value="6" />
-          <entry key="py" value="30" />
+          <entry key="ipynb" value="8" />
+          <entry key="py" value="37" />
           <entry key="txt" value="16" />
           <entry key="vocabulary" value="1" />
           <entry key="word2vec_org" value="1" />
@@ -36,9 +42,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="6" />
+          <entry key="IPNB" value="8" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="30" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,7 +65,7 @@
     <favorites_list name="NLP_project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +85,7 @@
       <find>train_super</find>
       <find>国</find>
       <find>Word2Vec</find>
+      <find>wordNgrams</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -325,7 +332,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33358547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -349,20 +356,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33358547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32729805" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3262295" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.4918033" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.37604457" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3286908" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.26462397" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5262295" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7081967" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -438,14 +445,14 @@
   <component name="editorHistoryManager">
     <entry file="file:///anaconda3/lib/python3.7/site-packages/scipy/sparse/base.py" />
     <entry file="file://$PROJECT_DIR$/data_sample/data_label.txt">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -509,14 +516,14 @@
     <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/__init__.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/builtins.py" />
     <entry file="file://$PROJECT_DIR$/data_sample/fasttext_train_data.txt">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="530">
           <caret line="5720" column="17" lean-forward="true" selection-start-line="5720" selection-start-column="17" selection-end-line="5720" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -532,13 +539,6 @@
     <entry file="file://$PROJECT_DIR$/4. facebook-fasttext.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/1995955354/fasttext_pybind.py" />
     <entry file="file:///anaconda3/lib/python3.7/site-packages/fasttext-0.8.22-py3.7-macosx-10.7-x86_64.egg/fastText/FastText.py" />
-    <entry file="file://$PROJECT_DIR$/4-1.facebook_fasttext.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.chinese_text_classifier.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -550,16 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="51" column="29" selection-start-line="51" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FasttextTextClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret selection-end-line="3" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,20 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-2.fast-unsupervised_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/car_news.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-299018" />
@@ -610,26 +586,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/vocabulary">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/word2vec_org">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-1.fasttext-preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/vocabulary" />
+    <entry file="file://$PROJECT_DIR$/model/word2vec_org" />
+    <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py.ipynb" />
     <entry file="file://D:/opt/anaconda3/Lib/site-packages/gensim/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -651,33 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="47" selection-start-line="47" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="e#711#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/opt/anaconda3/Lib/site-packages/fasttext-0.8.22-py3.6-win-amd64.egg/fastText/FastText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="364" column="19" selection-start-line="364" selection-start-column="11" selection-end-line="364" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/4-3 fasttext-unsuperviserd-gensim.py" />
     <entry file="file://$PROJECT_DIR$/data_sample/entertainment_sample.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -689,21 +622,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="61" selection-start-line="61" selection-end-line="73" selection-end-column="14" />
-          <folding>
-            <element signature="e#711#724#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_sample/fasttext_unsupervised_train_data.txt">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="250">
           <caret line="9361" column="4" lean-forward="true" selection-start-line="9361" selection-end-line="9361" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -711,6 +641,55 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-1.fasttext-preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2.fast-unsupervised_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2.fasttext-unsupervised_preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-1.facebook_fasttext.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/opt/anaconda3/Lib/site-packages/fasttext-0.8.22-py3.6-win-amd64.egg/fastText/FastText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FasttextTextClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
