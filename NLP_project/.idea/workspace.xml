@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/5.libshorttext-demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NLP_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLP_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c6474fdc-c6ee-40a9-b5f4-93b810338304" name="Default Changelist" comment="add" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +83,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,52 +100,6 @@
             <path>
               <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-              <item name="classifier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-              <item name="classifier" type="462c0819:PsiDirectoryNode" />
-              <item name="learner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-              <item name="classifier" type="462c0819:PsiDirectoryNode" />
-              <item name="learner" type="462c0819:PsiDirectoryNode" />
-              <item name="liblinear" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-              <item name="stemmer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_project" type="462c0819:PsiDirectoryNode" />
-              <item name="libshorttext" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-              <item name="stop-words" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,20 +283,20 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3389711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3389711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3262295" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3259053" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.49164346" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.37604457" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3286908" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.26462397" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3579387" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.68245125" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -456,14 +405,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_sample/sports_sample.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/technology_sample.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sample/technology_fasttext_sample.txt" />
-    <entry file="file://$PROJECT_DIR$/data_sample/fasttext_data_label.txt" />
     <entry file="file:///anaconda3/lib/python3.7/typing.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,6 +609,20 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/libshorttext/classifier/learner/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libshorttext/classifier/learner/liblinear/predict.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libshorttext/classifier/learner/liblinear/linear.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libshorttext/classifier/learner/liblinear/linear.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.chinese_text_jieba_dict.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
