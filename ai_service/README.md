@@ -1,8 +1,8 @@
 # Tornado web serving 
-python编写的web服务器兼web应用框架
+python编写的web服务器兼web应用框架 <br>
 
-https://blog.csdn.net/xc_zhou/article/details/80637714
-
+https://blog.csdn.net/xc_zhou/article/details/80637714 <br>
+http://www.tornadoweb.org/en/stable/
 ## 1. Tornado的优势
 * 轻量级web框架
 * 异步非阻塞IO处理方式
