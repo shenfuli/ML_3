@@ -12,8 +12,7 @@ from preprocessor.recognize import recognize
 def text2seq(text, args):
     text = re.sub(r'/s', '', text)  # Remove all spaces in the text.
     if args.date:
-        text = recognize.recognize_date(text)
-    if args.money:
+        text = recognize.reco
         text = recognize.recognize_money(text, args.category_money_dict)
     if args.weight:
         text = recognize.recognize_weight(text, args.category_weight_dict)

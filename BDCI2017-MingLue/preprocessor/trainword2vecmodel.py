@@ -7,7 +7,6 @@ Created on Tue Aug 29 20:48:16 2017
 """
 
 import logging
-import os
 import multiprocessing
 import argparse
 

@@ -34,14 +34,12 @@ def main(argv):
 def shuffle_data(inputfile, outputfile):
 	data = []
 	with open(inputfile, 'r') as f:
-		
 		for line in f:
 			data.append(line)
-		f.close()
+
 	random.shuffle(data)
 	with open(outputfile, 'w') as f:
 		f.writelines(data)
-		f.close()
 
 
 if __name__ == "__main__":

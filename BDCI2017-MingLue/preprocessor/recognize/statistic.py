@@ -1,7 +1,5 @@
 import json
 import argparse
-import numpy as np
-from matplotlib import pyplot as plt
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -39,3 +37,4 @@ if __name__ == '__main__':
             for line in f.readlines():
                 text, penalty = line.split('\t')[1:3]
                 for c in category:
+                    pass

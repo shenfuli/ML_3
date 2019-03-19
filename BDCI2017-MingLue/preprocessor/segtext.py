@@ -39,12 +39,9 @@ def seg(inputfile, outputfile):
 			line_list = line.split('\t')
 			line_list[1] = ' '.join(jieba.cut(line_list[1]))
 			seg_text.append('\t'.join(line_list))
-		f.close()
 
 	with open(outputfile, 'w') as f:
 		f.writelines(seg_text)
-		f.close()
-
 
 if __name__ == "__main__":
 	jieba.enable_parallel(8)
