@@ -6,7 +6,7 @@ import jieba
 class FasttextTextClassifier():
     def __init__(self, train_input, test_input, output):
         '''
-
+        http://albertxiebnu.github.io/fasttext/
         :param train_input: 训练数据文件路径
         :param test_input:  验证数据文件路径
         :param output:      模型
