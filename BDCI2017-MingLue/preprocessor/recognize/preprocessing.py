@@ -1,16 +1,13 @@
-import os
-import sys
 import re
 import json
 import multiprocessing
 import time
 import argparse
-from tqdm import tqdm
 import jieba
 import jieba.posseg
+from preprocessor.recognize import toolkit
+from preprocessor.recognize import recognize
 
-import toolkit
-import recognize
 
 def text2seq(text, args):
     text = re.sub(r'/s', '', text)  # Remove all spaces in the text.
@@ -46,14 +43,17 @@ def text2seq(text, args):
             seq[i] = alias_category_dict[seq[i]]
     return seq
 
+
 def line_preprocessing(line, args):
     content = line.split('\t')
     seq = text2seq(content[1], args)
     content[1] = ' '.join(seq)
     return '\t'.join(content)
 
+
 def _line_preprocessing(param):
     return line_preprocessing(*param)
+
 
 def preprocessing(input_file, output_file, core_num, args):
     with open(input_file, 'r') as f:
@@ -68,13 +68,16 @@ def preprocessing(input_file, output_file, core_num, args):
     with open(output_file, 'w') as f:
         f.write('\n'.join(line_processed))
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # Basic settings.
     parser.add_argument('--input-file', type=str)
     parser.add_argument('--output-file', type=str, default='./output.txt')
     parser.add_argument('--core-num', type=int, default=multiprocessing.cpu_count())
+
     # Recognize and discrete settings.
+
     ## Recognize all person names (人名) with [nr].
     parser.add_argument('--nr', dest='nr', action='store_true')
     parser.add_argument('--no-nr', dest='nr', action='store_false')
@@ -91,7 +94,7 @@ if __name__ == '__main__':
     parser.add_argument('--date', dest='date', action='store_true')
     parser.add_argument('--no-date', dest='date', action='store_false')
     parser.set_defaults(date=True)
-   ## Recognize and discrete all money (金钱).
+    ## Recognize and discrete all money (金钱).
     parser.add_argument('--money', dest='money', action='store_true')
     parser.add_argument('--no-money', dest='money', action='store_false')
     parser.set_defaults(money=True)
@@ -109,6 +112,7 @@ if __name__ == '__main__':
     parser.set_defaults(BAC=True)
     parser.add_argument('--category-BAC-dict', type=str,
                         default='./category_BAC.json')
+
     # Others.
     parser.add_argument('--category-alias-dict')
     args = parser.parse_args()

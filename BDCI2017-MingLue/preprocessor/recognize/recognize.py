@@ -1,6 +1,7 @@
 import re
 import json
-import toolkit
+from preprocessor.recognize import toolkit
+
 
 def recognize_date(text):
     """Recognize all dates (日期) with [date].
@@ -8,6 +9,7 @@ def recognize_date(text):
     num = r'[\d零〇一二三四五六七八九十同]'
     regex_pattern = r'({0}+年)?{0}+月({0}+日)?({0}+时)?({0}+分)?许?'.format(num)
     return re.sub(regex_pattern, '[date]', text)
+
 
 def _testdrive_recognize_date():
     text = ['于2016年12月17日出生于',
@@ -20,6 +22,7 @@ def _testdrive_recognize_date():
 def recognize_BAC(text, category_dict):
     """Recognize and discrete all blood alcohol concentration (血液酒精浓度).
     """
+
     def discrete_BAC(MatchObject):
         """Discrete the BAC according to the range.
         """
@@ -34,6 +37,7 @@ def recognize_BAC(text, category_dict):
     regex_pattern = r'((\d+\.?\d*)mg\/(100|)ml)'
     return re.sub(regex_pattern, discrete_BAC, text)
 
+
 def _testdrive_recognize_BAC():
     text = ['被告人汪某某血样中酒精含量为117.4mg/100ml，属醉酒驾驶。',
             '被告人汪某某血样中酒精含量为72mg/100ml，属饮酒驾驶。',
@@ -47,6 +51,7 @@ def _testdrive_recognize_BAC():
 def recognize_weight(text, category_dict):
     """Recognize and discrete all weight (重量).
     """
+
     def discrete_weight(MatchObject):
         """Discrete the matched weight according to the range.
         """
@@ -63,6 +68,7 @@ def recognize_weight(text, category_dict):
     regex_pattern = r'((\d+\.?\d*)[余多]?(克|千克|吨))'
     return re.sub(regex_pattern, discrete_weight, text)
 
+
 def _testdrive_recognize_weight():
     text = ['一车载有22840千克的玉米过好磅',
             '卖了190多吨玉米',
@@ -76,6 +82,7 @@ def _testdrive_recognize_weight():
 def recognize_money(text, category_dict):
     """Recognize and discrete all money (金钱).
     """
+
     def discrete_money(MatchObject):
         """Discrete the matched money according to the range.
         """
@@ -103,6 +110,7 @@ def recognize_money(text, category_dict):
     regex_pattern = r'((\d+[,，]?\d*\.?\d*)(|十|百|千|万|十万|百万|千万|亿)?[余多]?(?:元|块钱))|' + \
                     r'(([零一二两三四五六七八九十百千万亿]+)[余多]?(?:元|块钱))'
     return re.sub(regex_pattern, discrete_money, text)
+
 
 def _testdrive_recognize_money():
     text = ['盗窃两千七百块钱。',
