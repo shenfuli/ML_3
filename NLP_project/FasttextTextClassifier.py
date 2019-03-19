@@ -58,19 +58,20 @@ if __name__ == "__main__":
     # 模型文件路径
     model_path = "fasttext_20190226.model"
     # 训练 && 评估
-    # text_classifier = FasttextTextClassifier("data_sample/fasttext_train", "data_sample/fasttext_train",model_path)
-    # text_classifier.fit()
-    # precision, recall, _ = text_classifier.evaluate()
-    # print("precision={0},recall={1}".format("%.2f" % precision, "%.2f" % recall))
+    text_classifier = FasttextTextClassifier("data_sample/fasttext_train", "data_sample/fasttext_test",model_path)
+    text_classifier.fit()
+    precision, recall, _ = text_classifier.evaluate()
+    print("precision={0},recall={1}".format("%.2f" % precision, "%.2f" % recall))
+    #precision = 0.90, recall = 0.90
 
     # 预测
-    text_classifier = FasttextTextClassifier("", "", model_path)
-    model = text_classifier.load_model(model_path)
-    label_to_cate = {1: 'technology', 2: 'car', 3: 'entertainment', 4: 'military', 5: 'sports'}
-    data = "空空作战主要提升了雷达还有电抗的性能，最突出的特点就是增加了对地精确打击能力。"
-    text = " ".join(jieba.lcut(data))
-    print(text)
-    label, confidence = text_classifier.predict(text, model)
-    print("input data={0}".format(data))
-    print("category={0}".format(label_to_cate[int(label)]))
-    print("confidence={0}".format(confidence))
+    # text_classifier = FasttextTextClassifier("", "", model_path)
+    # model = text_classifier.load_model(model_path)
+    # label_to_cate = {1: 'technology', 2: 'car', 3: 'entertainment', 4: 'military', 5: 'sports'}
+    # data = "空空作战主要提升了雷达还有电抗的性能，最突出的特点就是增加了对地精确打击能力。"
+    # text = " ".join(jieba.lcut(data))
+    # print(text)
+    # label, confidence = text_classifier.predict(text, model)
+    # print("input data={0}".format(data))
+    # print("category={0}".format(label_to_cate[int(label)]))
+    # print("confidence={0}".format(confidence))
