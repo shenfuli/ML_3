@@ -3,7 +3,7 @@
 # # https://blog.csdn.net/jianglianye21/article/details/78086768-
 import sys
 # # 注意：如果要导入该项目其他模块的包名，应将导入的方法写在上面方法的后面，如下：
-sys.path.append('/home/ubuntu/work/AI/ML_3/BDCI2017-MingLue')
+sys.path.append('./')
 
 from preprocessor.recognize import toolkit
 
