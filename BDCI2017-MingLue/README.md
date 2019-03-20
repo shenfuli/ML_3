@@ -11,9 +11,15 @@
 * Python版本：3.5
 * 依赖库：
     * `numpy` 1.13.3
-    * `gensim` 3.1.0
-    * `jieba` 0.39
-    * `torch` 0.2.0
+    * `gensim` 3.1.0 =>pip install gensim
+    * `jieba` 0.39   =>pip install jieba 
+    * `torch` 0.2.0  =>conda install pytorch
+
+torch install: <br>
+https://blog.csdn.net/jacke121/article/details/79616554 <br> 
+https://github.com/torch/distro <br> 
+https://blog.csdn.net/u011961856/article/details/77679815 <br>
+https://ptorch.com/news/145.html <br> 
 
 ## 任务说明
 

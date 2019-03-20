@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+# -*- coding: UTF-8 -*-
+from sys import argv, stderr
+from os import system, path
+
 import re
 import json
 import multiprocessing
