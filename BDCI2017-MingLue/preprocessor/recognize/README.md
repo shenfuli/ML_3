@@ -3,7 +3,7 @@
 * 此模块目前存在问题，请不要使用。
 
 ## 运行方式
-
+进入当前项目目录，然后运行下面的命令 <br>
 `python preprocessing.py --input-file='../data/1-train/train.txt' --output-file='./train.txt'`
 `python preprocessing.py --input-file='../data/2-test/test.txt' --output-file='./test.txt'`
 

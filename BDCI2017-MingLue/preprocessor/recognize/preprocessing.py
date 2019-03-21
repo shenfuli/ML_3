@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
+import sys
+sys.path.append("./")
 import re
 import json
 import multiprocessing
@@ -14,7 +16,6 @@ from preprocessor.recognize import recognize
 def text2seq(text, args):
     text = re.sub(r'/s', '', text)  # Remove all spaces in the text.
     if args.date:
-        text = recognize.reco
         text = recognize.recognize_money(text, args.category_money_dict)
     if args.weight:
         text = recognize.recognize_weight(text, args.category_weight_dict)
@@ -100,19 +101,20 @@ if __name__ == '__main__':
     parser.add_argument('--no-money', dest='money', action='store_false')
     parser.set_defaults(money=True)
     parser.add_argument('--category-money-dict', type=str,
-                        default='./category_money.json')
+                        default='./config/category_money.json')
+
     ## Recognize and discrete all weight (重量).
     parser.add_argument('--weight', dest='weight', action='store_true')
     parser.add_argument('--no-weight', dest='weight', action='store_false')
     parser.set_defaults(weight=True)
     parser.add_argument('--category-weight-dict', type=str,
-                        default='./category_weight.json')
+                        default='./config/category_weight.json')
     ## Recognize and discrete all blood alcohol concentration (血液酒精浓度).
     parser.add_argument('--BAC', dest='BAC', action='store_true')
     parser.add_argument('--no-BAC', dest='BAC', action='store_false')
     parser.set_defaults(BAC=True)
     parser.add_argument('--category-BAC-dict', type=str,
-                        default='./category_BAC.json')
+                        default='./config/category_BAC.json')
 
     # Others.
     parser.add_argument('--category-alias-dict')
