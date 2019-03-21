@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a90de5-6137-4ba1-a55d-2b3ba2ca442f" name="Default Changelist" comment="add bdci2017">
-      <change beforePath="$PROJECT_DIR$/.idea/BDCI2017-MingLue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BDCI2017-MingLue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/.builddataset.py.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor/recognize/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor/recognize/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/category_BAC.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/category_BAC.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/category_money.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/category_money.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/category_weight.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/category_weight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/preprocessing-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor/recognize/preprocessing-test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor/recognize/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessor/recognize/toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor/recognize/toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +35,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/preprocessor/recognize/preprocessing-test.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -78,6 +66,7 @@
       <find>9768</find>
       <find>[0, 20]</find>
       <find>盗窃</find>
+      <find>idea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,6 +90,7 @@
         <option value="$PROJECT_DIR$/preprocessor/recognize/toolkit.py" />
         <option value="$PROJECT_DIR$/preprocessor/recognize/preprocessing.py" />
         <option value="$PROJECT_DIR$/preprocessor/recognize/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -122,32 +112,6 @@
             <path>
               <item name="BDCI2017-MingLue" type="b2602c69:ProjectViewProjectNode" />
               <item name="BDCI2017-MingLue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDCI2017-MingLue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDCI2017-MingLue" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDCI2017-MingLue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDCI2017-MingLue" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDCI2017-MingLue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDCI2017-MingLue" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDCI2017-MingLue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDCI2017-MingLue" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDCI2017-MingLue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDCI2017-MingLue" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="recognize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +286,7 @@
       <updated>1552975689814</updated>
       <workItem from="1553072757435" duration="3989000" />
       <workItem from="1553077497980" duration="240000" />
-      <workItem from="1553077790549" duration="12423000" />
+      <workItem from="1553077790549" duration="12936000" />
     </task>
     <task id="LOCAL-00001" summary="add bdci2017">
       <created>1552976091044</created>
@@ -335,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16652000" />
+    <option name="totallyTimeSpent" value="17165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -355,7 +319,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.2015504" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34728682" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3612403" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,7 +359,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add bdci2017" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/lib/python3.7/multiprocessing/pool.py" />
     <entry file="file://$PROJECT_DIR$/corpus/sample_seg_test.txt" />
     <entry file="file://$PROJECT_DIR$/preprocessor/recognize/statistic2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -735,6 +698,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
