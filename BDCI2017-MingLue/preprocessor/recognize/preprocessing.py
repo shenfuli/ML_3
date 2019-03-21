@@ -11,8 +11,8 @@ import jieba
 import jieba.posseg
 from preprocessor.recognize import toolkit
 from preprocessor.recognize import recognize
-
-
+import pandas as pd
+from config import Config
 def text2seq(text, args):
     text = re.sub(r'/s', '', text)  # Remove all spaces in the text.
     if args.date:
@@ -24,8 +24,9 @@ def text2seq(text, args):
     # Replace categories with aliases, in case of being segmented.
     for category in args.category_alias_dict:
         text = text.replace(category, args.category_alias_dict[category])
+
+    seq = []
     if args.nr or args.ns or args.m:
-        seq = []
         pair = jieba.posseg.cut(text)
         for word, flag in pair:
             if args.nr and flag == 'nr':
@@ -38,6 +39,15 @@ def text2seq(text, args):
                 seq.append(word)
     else:
         seq = list(jieba.cut(text))
+
+    # stopwords
+    config = Config()
+    # 停用词
+    stopwords_data_path = config.stop_words_path
+    stopwords_data_df = pd.read_csv(stopwords_data_path, encoding="utf-8", sep="\t", index_col=None, quoting=3,names=["stopword"])
+    stopwords = stopwords_data_df.stopword.values.tolist()
+    seq = [word for word in seq if len(word) > 1 and word not in stopwords]
+
     # Recover categories from aliases.
     alias_category_dict = {a: c for c, a in args.category_alias_dict.items()}
     for i in range(len(seq)):

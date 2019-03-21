@@ -1,5 +1,5 @@
 import argparse
-from buildpretrainemb import save_dict
+from preprocessor.buildpretrainemb import save_dict
 
 def load_element_keywords(path):
     element_keywords = []

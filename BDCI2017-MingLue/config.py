@@ -1,21 +1,17 @@
-import pickle
-
 class Config:
     has_cuda = True
     is_training = True
     is_pretrain = True
     force_word2index = False
+    stop_words_path = "/home/ubuntu/work/AI/ML_3/BDCI2017-MingLue/config/stopwords.txt"
     embedding_path = "./word2vec/pretrain_emb.alltrain.256d.npy"
-#    embedding_path = "./word2vec/pretrain_emb.128d.npy"
     test_path = './corpus/seg_test.txt'
-#    test_path = './corpus/test_preprocessed.txt'
     result_path = './results/test_result.json'
     data_path = './corpus/seg_train.txt'
-#    data_path = './corpus/train_m_preprocessed.txt'
     model_path = './pickles/params.pkl'
     
-    index2word_path = './pickles/index2word.all.pkl'
-    word2index_path = './pickles/word2index.all.pkl'
+    index2word_path = '/home/ubuntu/work/AI/ML_3/BDCI2017-MingLue/pickles/index2word.all.pkl'
+    word2index_path = '/home/ubuntu/work/AI/ML_3/BDCI2017-MingLue/pickles/word2index.all.pkl'
     model_names = ['fastText',
                    'TextCNN', 
                    'TextRCNN',
@@ -176,7 +172,7 @@ class MultiConfig:
     element_embedding_size = 256
     element_size = 34
     
-    with open('./pickles/weight_distribute.pkl', 'rb') as f:
-        loss_weight = pickle.load(f)
-        # print(loss_weight)
+    # with open('./pickles/weight_distribute.pkl', 'rb') as f:
+    #     loss_weight = pickle.load(f)
+    #     # print(loss_weight)
 

@@ -1,3 +1,4 @@
+# -*-coding:utf-8-*-
 import pickle
 from gensim.models import Word2Vec
 import numpy as np

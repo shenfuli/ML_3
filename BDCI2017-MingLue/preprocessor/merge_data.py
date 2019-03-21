@@ -18,4 +18,3 @@ if __name__ == "__main__":
     input_files = args.input_files.split()
     print(input_files)
     merge(input_files, args.output_file)
-    

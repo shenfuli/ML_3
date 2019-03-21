@@ -74,6 +74,7 @@ https://ptorch.com/news/145.html <br>
     python ./segtext.py -i [input-file-path] -o [output-file-path]
     ```
     - shuffledata.py: 将文本按行随机打乱
+    seg_train.txt 经过shuffle后的结果数据  
     ```
     python ./shuffledata.py -i [input-file-path] -o [output-file-path]
     ```

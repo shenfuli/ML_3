@@ -2,14 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-from collections import Counter
-import time 
+import time
 import argparse
 import os
 
 import torch
 import torch.nn as nn
-import torch.optim as optim
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 
@@ -18,7 +16,6 @@ import preprocessor.buildpretrainemb as bpe
 import preprocessor.getdoc2vec as gdv
 
 import utils.statisticsdata as sd
-import utils.calculatescore as cs
 from utils.trainhelper import accuracy, model_selector, do_eval, build_element_vec
 
 from config import Config

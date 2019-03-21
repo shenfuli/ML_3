@@ -7,8 +7,6 @@
 @File    : seg.py.py
 @Software: PyCharm Community Edition
 """
-import jieba.posseg as pseg
-import jieba
 import random
 import datetime
 import pickle

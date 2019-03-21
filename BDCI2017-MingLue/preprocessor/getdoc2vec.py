@@ -1,4 +1,4 @@
-from gensim.models import Doc2Vec, doc2vec
+from gensim.models import Doc2Vec
 import numpy as np
 
 def load_doc2vec_model(dmpv_model_path, dbow_model_path):

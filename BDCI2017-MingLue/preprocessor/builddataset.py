@@ -1,7 +1,9 @@
+# -*-coding:utf-8-*-
 import numpy as np
 from collections import Counter
 import random
 import math
+
 
 def discretization(s):
     try:
@@ -66,37 +68,21 @@ def over_sample(ids, data, labels):
            np.array(new_labels, dtype=np.int64)[indices]
 
 
-def load_test_data(data_path):
-    """
-    载入测试数据
-    """
-    data = []
-    tests_id = []
-    max_sentence_len = 0
-    with open(data_path, 'r') as f:
-        for line in f:
-            line_list = line.split('\t')
-            tests_id.append(line_list[0])
-            one_data = line_list[1].split(' ')
-            tmp_len = len(one_data)
-            if tmp_len > max_sentence_len:
-                max_sentence_len = tmp_len
-            data.append(one_data)
-        f.close()
-    print("max text length in test set: ", max_sentence_len)
-    return tests_id, data
-
-
 def build_vocabulary(data, min_count=3):
     """
     基于所有数据构建词表
+    格式: [('<UNK>', -1), ('<PAD>', -1), ('荔城区', 3)] {'<UNK>': 0, '<PAD>': 1, '荔城区': 2} {0: '<UNK>', 1: '<PAD>', 2: '荔城区'}
+
+    count=> [('<UNK>', -1), ('<PAD>', -1), ('荔城区', 3)]
+    dict_word2index=>{'<UNK>': 0, '<PAD>': 1, '荔城区': 2}
+    dict_index2word=>{0: '<UNK>', 1: '<PAD>', 2: '荔城区'}
     """
     # add <PAD> for embedding
     count = [('<UNK>', -1), ('<PAD>', -1)]
     # count = [('UNK', -1)]
     words = []
     for line in data:
-        words.extend(line)  # TODO ?
+        words.extend(line)
     counter = Counter(words)
     counter_list = counter.most_common()
     for word, c in counter_list:

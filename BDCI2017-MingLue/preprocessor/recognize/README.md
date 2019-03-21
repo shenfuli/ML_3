@@ -22,8 +22,7 @@
 默认是全部是True。因此如果想要不识别某些成分，需要在命令后面加上`--no-xxx`，如：
 
 `python preprocessing.py --input-file='../data/1-train/train.txt' --output-file='./train.txt' --no-nr --no-ns --no-m`
-
-表示不要替换人名、地名和数字。
+/home/ubuntu/work/AI/ML_3/BDCI2017-MingLue/corpus/sample_seg_train.txt表示不要替换人名、地名和数字。
 
 ## 文件组织
 
