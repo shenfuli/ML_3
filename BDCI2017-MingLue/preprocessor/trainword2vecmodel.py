@@ -19,7 +19,7 @@ class MySentences(object):
         for i, fname in enumerate(self.fname_list):
             for line in open(fname, 'r'):
                 line = line.strip()
-                if i >= 1: # MingLueData
+                if i >= 1: 
                     line = line.split('\t')[1]
                 sentences = line.split("。")
                 for sen in sentences:

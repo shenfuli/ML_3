@@ -4,7 +4,6 @@ from torch.utils.data import DataLoader
 
 import json
 import time
-import numpy as np
 import argparse
 
 from models.fasttext import FastText

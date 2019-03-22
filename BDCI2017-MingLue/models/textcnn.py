@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F 
-from torch.autograd import Variable
 
 import numpy as np
 import os
@@ -39,7 +38,6 @@ class TextCNN(nn.Module):
                 nn.Sequential(nn.Conv1d(in_channels=config.embedding_size, 
                                         out_channels=config.feature_size, 
                                         kernel_size=h),
-#                              nn.BatchNorm1d(num_features=config.feature_size), 
                               nn.ReLU(),
                               nn.MaxPool1d(kernel_size=config.max_text_len-h+1))
                      for h in config.window_sizes

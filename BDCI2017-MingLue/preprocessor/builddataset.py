@@ -21,12 +21,16 @@ def load_data(data_path):
     data = []
     labels = []
     ids = []
+    max_text_len = 0
     with open(data_path, 'r') as f:
         for line in f:
             line = line.strip().split('\t')
             ids.append(line[0])
-            data.append(line[1].split(" "))
+            text = line[1].split(" ")
+            data.append(text)
             labels.append(int(line[2]))
+            max_text_len = max(max_text_len,len(data))
+    print("max text length={0}".format(max_text_len))
     return ids, data, labels
 
 
@@ -99,11 +103,18 @@ def build_vocabulary(data, min_count=3):
 
 def build_dataset(ids, data, labels, dict_word2index, max_text_len):
     """
-    基于词表构建数据集（数值化）
+    :function 基于词表构建pytorch数据集（数值化）
+    :return 返回pytorch的数据格式，没有的词补0，长度不够的补1
+        id=> ['train_162172', 'train_134428', 'train_122745', 'train_133855']
+        data=>
+        [[   4   10  338 ...    1    1    1]
+         [   4   10  285 ...    1    1    1]
+         [   4   10  354 ...    1    1    1]
+         [   4   10 3808 ...    1    1    1]]
+        labels=> [0 0 2 5]
     """
     dataset = []
     indices = np.arange(len(labels))
-    #    np.random.shuffle(indices)
     new_labels = []
     new_ids = []
     for i in indices:

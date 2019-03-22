@@ -1,6 +1,6 @@
 import numpy as np
 
-import torch 
+import torch
 from torch.autograd import Variable
 
 from models.fasttext import FastText
@@ -12,16 +12,13 @@ from models.cnnwithdoc2vec import CNNWithDoc2Vec
 from models.rcnnwithdoc2vec import RCNNWithDoc2Vec
 from models.modelwithelement import ModelWithElement
 from models.CNNInception import CNNwithInception
-import preprocessor.builddataset as bd
-import preprocessor.getdoc2vec as gdv
-
-import utils.statisticsdata as sd
 import utils.calculatescore as cs
 
 
 def accuracy(predictions, labels):
     return (100.0 * np.sum(np.array(predictions) == np.array(labels))
             / len(labels))
+
 
 def model_selector(config, model_id, use_element):
     model = None
@@ -51,7 +48,6 @@ def model_selector(config, model_id, use_element):
 
 
 def _get_loss_weight(predicted, label, num_class):
-
     sample_per_class = torch.zeros(num_class)
     error_per_class = torch.zeros(num_class)
     for p, t in zip(predicted, label):
@@ -73,15 +69,7 @@ def do_eval(valid_loader, model, model_id, has_cuda, dmpv_model=None, dbow_model
         ids, texts, labels = data
         if has_cuda:
             texts = texts.cuda()
-        if dmpv_model is not None and dbow_model is not None:  # cnn and rcnn with doc2vec
-            doc2vec = gdv.build_doc2vec(ids, dmpv_model, dbow_model)
-            if has_cuda:
-                doc2vec = Variable(torch.FloatTensor(doc2vec).cuda())
-            else:
-                doc2vec = Variable(torch.FloatTensor(doc2vec))
-            outputs = model(Variable(text), doc2vec)
-        else:
-            outputs = model(Variable(texts))
+        outputs = model(Variable(texts))
         _, predicted = torch.max(outputs.data, 1)
         true_labels.extend(labels)
         predicted_labels.extend(predicted.cpu())
@@ -101,5 +89,4 @@ def build_element_vec(ids, all_element_vec):
     element_vec = []
     for id in ids:
         element_vec.append(all_element_vec[id])
-    
     return np.array(element_vec, dtype=np.int64)
